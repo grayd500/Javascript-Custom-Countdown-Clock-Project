@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
 
 html {
   box-sizing: border-box;
@@ -10,6 +10,7 @@ body {
   overflow-y: hidden;
   display: flex;
   align-items: center;
+  font-family: 'Playfair Display SC', sans-serif;
 
 }
 
@@ -83,7 +84,7 @@ input {
   border-radius: 20px;
   background: #fff;
   outline: none;
-
+  font-family: 'Playfair Display SC', sans-serif;
 }
 
 /* Button */
@@ -100,7 +101,9 @@ button {
   outline: none;
 }
 
-
+button:hover {
+  filter: brightness(110%);
+}
 
 /* Countdown */
 ul {
